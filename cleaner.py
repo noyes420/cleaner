@@ -171,7 +171,7 @@ def clearcache():
         print("%s" % task2complete)
         logging.info("%s" % task2complete)
     except Exception as e:
-        logging.info(e)
+        logging.error(e)
         print("Couldn't clear DNS resolver cache %s" % e)
 
 
